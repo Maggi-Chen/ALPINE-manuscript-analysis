@@ -40,7 +40,7 @@ ALPINE-manuscript-analysis/
 ### Simulation Benchmarking (`simulation_benchmark/`)
 - **`check_accuracy_alpine.py`** - Calculates precision, recall, and F1 scores for ALPINE
 - **`check_accuracy_knock.py`** - Calculates precision, recall, and F1 scores for knock-knock
-- **`plot_simulation_benchmark.R`** - Generates Figure 2 and simulation benchmark plots
+- **`plot_simulation_benchmark.R`** - Generates Figure S6
 
 ### Public Dataset Analysis (`public_dataset_analysis/`)
 - **`count_9del_alpine.py`** - Counts 9bp deletion events in ALPINE output
@@ -49,7 +49,7 @@ ALPINE-manuscript-analysis/
 - **`get_read_proportion_alpine_knock_crispresso2.py`** - Extracts outcome proportions from all three tools
 - **`get_readname_integration.py`** - Identifies integration event read names for validation
 - **`proportion_knock_from_per_sample_out.py`** - Processes per-sample knock-knock output files
-- **`visualize_supp_figures.R`** - Generates Supplementary Figures S7-S11
+- **`visualize_supp_figures.R`** - Generates Supplementary Figures S7-S10
 
 ## Data Sources
 
@@ -62,15 +62,6 @@ ALPINE-manuscript-analysis/
 - Users must download the PRJNA913199 dataset independently from NCBI SRA
 - Simulated data is generated on-the-fly using the provided scripts
 - All analysis scripts expect data in standard formats (FASTQ, BAM, etc.)
-
-## Citation
-
-If you use these scripts, please cite the ALPINE preprint:
-
-```
-ALPINE: a comprehensive tool for CRISPR gene editing outcome classification from long-read sequencing data.
-bioRxiv 2026.03.27.714831; doi: https://doi.org/10.64898/2026.03.27.714831
-```
 
 ## License
 
